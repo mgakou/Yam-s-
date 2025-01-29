@@ -4,7 +4,7 @@ import random
 
 # Configuration globale
 clients_connectes = []  # Liste des connexions clients
-NB_TOUR_DE_JEU = 2
+NB_TOUR_DE_JEU = 1
 lock = threading.Lock()
 game_started = threading.Event()
 
